@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: black;
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(102, 48, 0, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -477,6 +477,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    padding: 0px 0;
 }
 
 .icon-lg {
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -701,7 +702,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 30px auto 30px auto;
 }
 
 h2 {
@@ -736,11 +737,12 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #1e1941!important;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -753,7 +755,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #f3976c;
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,12 +777,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #663000!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #663000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -789,7 +791,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #1e1941!important;
 }
 
 .ltc-white:hover {
@@ -818,7 +820,8 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+ 
+    background-color: #f3976c;
 }
 
 .bg-presentation {
